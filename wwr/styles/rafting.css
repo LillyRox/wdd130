@@ -31,6 +31,7 @@ header {
   justify-content: space-between;
   background-color: var(--primary-color);
   padding: 10px;
+  color: white;
 }
 
 header img {
@@ -40,18 +41,18 @@ header img {
 nav {
   display: flex;
   gap: 15px;
-  background-color: var(--secondary-color); 
+  background-color: var(--secondary-color);
   padding: 10px;
 }
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: var(--accent2-color);
   font-weight: bold;
 }
 
 nav a:hover {
-  color: var(--accent1-color);
+  color: white;
 }
 
 h1, h2 {
@@ -80,9 +81,9 @@ p, section, article {
   width: 100%;
   padding: 16px;
   text-align: center;
-  opacity: 0.85;
-  background-color: var(--accent1-color);
+  background-color: var(--primary-color);
   color: white;
+  opacity: 0.9;
 }
 
 .hero article {
@@ -102,8 +103,9 @@ p, section, article {
 }
 
 section {
-  background-color: white;
-  border-left: 5px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: white;
+  border-left: 5px solid var(--primary-color);
 }
 
 footer {

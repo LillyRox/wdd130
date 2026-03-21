@@ -57,7 +57,14 @@ nav a:hover {
 
 h1, h2 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: var(--accent1-color); 
 }
 
 p, section, article {
@@ -103,7 +110,7 @@ p, section, article {
 }
 
 section {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color); 
   color: white;
   border-left: 5px solid var(--primary-color);
 }
